@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Karthick L – Full Stack Developer</title>
+<style>
+:root{--bg:#f7f7fb;--surface:#fff;--text:#1c1d2b;--muted:#5d6078;--accent:#4f46e5;--accent2:#0ea5e9;--border:#e3e4ef;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1020;--surface:#181a30;--text:#ecedf8;--muted:#a1a4c2;--accent:#8b8cff;--accent2:#38bdf8;--border:#2a2d4a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f1020;--surface:#181a30;--text:#ecedf8;--muted:#a1a4c2;--accent:#8b8cff;--accent2:#38bdf8;--border:#2a2d4a;color-scheme:dark}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 64px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--accent);text-decoration:none}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);border-bottom:1px solid var(--border)}
+nav{display:flex;justify-content:space-between;align-items:center;height:56px}
+nav b{font-size:18px}
+nav div{display:flex;gap:18px;font-size:14px;overflow-x:auto}
+nav a{color:var(--muted)}nav a:hover{color:var(--accent)}
+.hero{padding:72px 0 56px}
+.tag{display:inline-block;font-size:13px;color:var(--accent);border:1px solid var(--border);background:var(--surface);padding:4px 12px;border-radius:99px}
+h1{font-size:clamp(34px,7vw,56px);line-height:1.1;margin:18px 0 12px}
+h1 span{background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{max-width:640px;color:var(--muted);font-size:18px}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.btn{padding:11px 22px;border-radius:10px;font-weight:600;font-size:15px;border:1px solid var(--accent)}
+.btn.p{background:var(--accent);color:#fff}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .btn.p{color:#0f1020}}
+section{padding:48px 0}
+h2{font-size:26px;margin:0 0 24px}
+h2::after{content:"";display:block;width:44px;height:4px;border-radius:4px;background:var(--accent);margin-top:8px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:24px}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chips span{background:var(--surface);border:1px solid var(--border);padding:6px 14px;border-radius:99px;font-size:14px}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.grid .card h3{margin:0 0 10px;font-size:16px;color:var(--accent)}
+.row{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.row h3{margin:0;font-size:19px}.row small{color:var(--muted)}
+ul{margin:0;padding-left:20px}li{margin:6px 0;color:var(--muted)}
+li b{color:var(--text);font-weight:600}
+.contact{text-align:center}
+.contact p{color:var(--muted)}
+footer{padding:28px 0;text-align:center;color:var(--muted);font-size:14px;border-top:1px solid var(--border)}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav><b>Karthick L</b><div><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#project">Project</a><a href="#contact">Contact</a></div></nav></div></header>
+
+<main class="wrap">
+<div class="hero">
+<span class="tag">Chennai, Tamil Nadu, India</span>
+<h1>Hi, I’m <span>Karthick L</span>.<br>Full Stack Developer.</h1>
+<p>I build scalable web applications with Angular, Node.js and PostgreSQL, deploy them on AWS, and add AI-powered features with Gemini.</p>
+<div class="btns"><a class="btn p" href="#project">View my work</a><a class="btn" href="mailto:karthickloganathan01@gmail.com">Get in touch</a></div>
+</div>
+
+<section id="about"><h2>About</h2>
+<div class="card"><p style="margin:0">Full Stack Developer with 2+ years of experience designing and developing scalable web applications using Angular, Node.js, Express.js, TypeScript and PostgreSQL. I build RESTful APIs, deploy to AWS, create real-time applications with Socket.IO, and ship AI-powered features using Gemini AI APIs. I work well in Agile teams and take ownership of production support.</p></div></section>
+
+<section id="skills"><h2>Skills</h2>
+<div class="grid">
+<div class="card"><h3>Frontend</h3><div class="chips"><span>Angular</span><span>TypeScript</span><span>JavaScript</span></div></div>
+<div class="card"><h3>Backend</h3><div class="chips"><span>Node.js</span><span>Express.js</span><span>REST APIs</span><span>Socket.IO</span></div></div>
+<div class="card"><h3>Databases</h3><div class="chips"><span>PostgreSQL</span><span>MySQL</span><span>pgAdmin</span></div></div>
+<div class="card"><h3>Cloud (AWS)</h3><div class="chips"><span>EC2</span><span>Cognito</span><span>S3</span><span>SES</span></div></div>
+<div class="card"><h3>Process &amp; Tools</h3><div class="chips"><span>Agile</span><span>Scrum</span><span>VS Code</span></div></div>
+<div class="card"><h3>AI</h3><div class="chips"><span>Gemini AI APIs</span><span>Prompt engineering</span></div></div>
+</div></section>
+
+<section id="experience"><h2>Experience</h2>
+<div class="card">
+<div class="row"><h3>Full Stack Developer · Retroacto Pvt Ltd</h3><small>May 2024 – Present</small></div>
+<ul>
+<li>Developed enterprise web applications using Angular, Node.js and Express.js.</li>
+<li>Built reusable, responsive Angular components.</li>
+<li>Designed RESTful APIs and backend services on PostgreSQL and MySQL.</li>
+<li>Implemented real-time communication with Socket.IO.</li>
+<li>Built secure authentication with AWS Cognito, file uploads with S3 and email notifications with SES.</li>
+<li>Deployed and maintained applications on AWS EC2 Linux servers.</li>
+<li>Investigated and resolved production issues and hotfixes.</li>
+<li>Integrated Gemini AI APIs into enterprise applications.</li>
+</ul></div></section>
+
+<section id="project"><h2>Featured Project</h2>
+<div class="card">
+<div class="row"><h3>Repurly – Project Management Tool</h3><small>Angular · Node.js · PostgreSQL · AWS · Socket.IO · Gemini</small></div>
+<p style="color:var(--muted);margin-top:0">A web-based project management app for sprint planning, backlog management, task tracking and team collaboration.</p>
+<ul>
+<li><b>Frontend &amp; APIs:</b> responsive Angular UI integrated with RESTful APIs built on Node.js and Express.js.</li>
+<li><b>Data:</b> designed and optimized PostgreSQL schemas to improve performance.</li>
+<li><b>Security &amp; storage:</b> AWS Cognito authentication and AWS S3 file storage.</li>
+<li><b>Real-time:</b> notifications and collaboration features with Socket.IO.</li>
+<li><b>AI retrospectives:</b> Gemini-powered analysis that generates sprint highlights, lowlights, action items and appreciations from team feedback, with engineered prompts for consistent results.</li>
+<li><b>Action-oriented:</b> backend APIs and UI components that turn AI recommendations into work items.</li>
+<li><b>Reliability:</b> managed production deployments and resolved critical issues in an Agile/Scrum team.</li>
+</ul></div></section>
+
+<section id="education"><h2>Education &amp; Certifications</h2>
+<div class="grid">
+<div class="card"><h3>Education</h3><b>B.E. Electronics and Communication Engineering</b><br><span style="color:var(--muted)">Mount Zion College of Engineering and Technology · 2018–2022</span></div>
+<div class="card"><h3>Certifications</h3><ul><li>Full Stack Development (NoviTech)</li><li>Python Programming (Ebox)</li><li>Java Programming (Ebox)</li></ul></div>
+<div class="card"><h3>Languages</h3><ul><li>English (Professional)</li><li>Tamil (Native)</li></ul></div>
+</div></section>
+
+<section id="contact" class="contact"><h2 style="display:inline-block">Let’s work together</h2>
+<p>I’m happy to talk about new opportunities and projects.</p>
+<div class="btns" style="justify-content:center"><a class="btn p" href="mailto:karthickloganathan01@gmail.com">karthickloganathan01@gmail.com</a><a class="btn" href="tel:+917094351685">+91 70943 51685</a></div>
+</section>
+</main>
+<footer>© <span id="y"></span> Karthick L</footer>
+<script>document.getElementById("y").textContent=new Date().getFullYear();</script>
+</body>
+</html>
